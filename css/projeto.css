@@ -16,7 +16,7 @@ body{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 55px;
+    height: 70px;
     align-items: center;
     margin: 0;
     
@@ -24,17 +24,12 @@ body{
 
 }
 
-li{
+.menu li{
 
     text-align: center;
     flex-wrap: nowrap;
     display: inline;
     margin-right: 20px;
-
-}
-
-.menu{
-
     align-items: center;
     list-style: none;
     justify-content: space-between;
@@ -120,8 +115,9 @@ a{
 
 #logo{
 
-    width: 60px;
-    height: 50px;
-    margin-top: 15px;
+    width: 105px;
+    height: 60px;
+    margin-top: 20px;
+    flex-wrap: nowrap;
 
 }
