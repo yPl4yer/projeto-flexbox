@@ -29,7 +29,7 @@ body{
 .menu li{
 
     text-align: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     display: inline;
     margin-right: 20px;
     align-items: center;
